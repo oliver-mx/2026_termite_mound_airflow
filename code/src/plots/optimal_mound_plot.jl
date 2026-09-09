@@ -239,7 +239,7 @@ end
         #xlabel="t (h)", ylabel="Velocity (m/s)", 
         linecolor=:green, label = "Dead mounds")
         scatter!(alive_vel_x_data, alive_vel_y_data, label = "Alive mounds", markercolor=:green, markersize=:4.0, marker=:xcross)  
-        plot!(x, Velocity, label = "u(t,0)",xticks = [0,4,8,12,16,20,24], linecolor=:black)
+        plot!(x, Velocity, label = "u(t,0)",xticks = [0,4,8,12,16,20,24], linecolor=:black, linestyle=:dash)
     savefig(p_vel, joinpath(plot_dir3, "Air_velocity.png"))
     #-----------------------
     p_Tnest = plot(t, T_air.(t, equations) .- 273.15,
