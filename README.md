@@ -1,4 +1,4 @@
-# Learning from modelling and simulation of air flow dynamics inside termite mounds in view of low-energy houses
+# Reproducability repository: Modelling and simulation of airflow dynamics inside termite mounds
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/1359170631.svg)](https://doi.org/10.5281/zenodo.22708206)
@@ -7,7 +7,7 @@
 This repository contains information and code to reproduce the results presented in the article
 ```bibtex
 @online{marx26,
-  title={Modelling and simulation of air flow dynamics inside termite mounds},
+  title={Modelling and simulation of airflow dynamics inside termite mounds},
   author={Marx, Oliver P and Gasser, Ingenuin and Schmidgall, Annika},
   year={2026},
   howpublished={\url{https://github.com/oliver-mx/2026_termite_mound_airflow}},
